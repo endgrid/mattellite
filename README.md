@@ -3,7 +3,8 @@
 Network change monitoring watchtower (plug-and-play nmap ndiff result email alerting)
 
 Monitoring large networks is difficult. Locating and ensuring the correct configuration of devices on those networks is a daunting task.
-Mattellite is a simple, one script program designed to use minimal resources and grant maximum network visibility. I built it to run on an Ubuntu VM but you could also put it on a Pi to take advantage of physical access.
+
+Mattellite is a simple, one-script program designed to use minimal resources. I built it to run on an Ubuntu VM but you could also put it on a Pi to take advantage of physical access.
 
 ## Step 1: [Configuring Gmail as a Sendmail email relay](https://linuxconfig.org/configuring-gmail-as-sendmail-email-relay)
 I recommend the above tutorial by Luke Reynolds for setting up a mail relay.
