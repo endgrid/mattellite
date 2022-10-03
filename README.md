@@ -75,3 +75,28 @@ Edit the recipient email in [mattellite.sh](https://github.com/endgrid/mattellit
 
 `nano mattellite.sh`
 
+Make the script executable:
+
+`chmod +x /root/mattellite.sh`
+
+## Step 4: Run baseline scan
+
+Run baseline scan:
+
+`bash /root/mattellite.sh`
+
+## Step 5: Schedule cron job
+
+If not still root, switch to root:
+
+`su`
+
+Open crontab:
+
+`crontab -e`
+
+Add cron job:
+
+`0 5 * * * /root/mattellite.sh`
+
+
