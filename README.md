@@ -25,7 +25,7 @@ Create the gmail configuration file:
 
 Paste the following:
 
-`AuthInfo: "U:YOUR USER" "I:YOUR GMAIL EMAIL ADDRESS" "P:YOUR PASSWORD"`
+`AuthInfo: "U:root" "I:YOUR GMAIL EMAIL ADDRESS" "P:YOUR PASSWORD"`
 
 Create a hashmap for the auth file:
 
