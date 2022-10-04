@@ -104,6 +104,6 @@ Add cron job:
 
 The email alert will look something like this:
 
-![image](https://user-images.githubusercontent.com/104172903/193733875-16dd870d-fe75-456f-87e3-62d72af98f0b.png)
+![image](https://user-images.githubusercontent.com/104172903/193734044-ba2ec18b-4d91-4f96-b077-a53a9693ec5c.png)
 
 Discovered hosts can be manually scanned again to capture more information, such as by adding the -A option to the nmap command.
