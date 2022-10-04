@@ -102,8 +102,8 @@ Add cron job:
 
 ## Result:
 
-If any devices have entered or left your network, the alert will look something like this:
+The email alert will look something like this:
 
-<img width="514" alt="email" src="https://user-images.githubusercontent.com/104172903/193688529-a610e050-289f-45ce-a913-b9a5f8103687.png">
+![image](https://user-images.githubusercontent.com/104172903/193733875-16dd870d-fe75-456f-87e3-62d72af98f0b.png)
 
-Newly discovered hosts can be manually scanned again to capture more information, or the nmap command in the mattellite.sh file can be edited to perform more intense scans each time. Removing `-sn` from the nmap command enables port scanning.
+Discovered hosts can be manually scanned again to capture more information, such as by adding the -A option to the nmap command.
